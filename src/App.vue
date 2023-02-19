@@ -1,13 +1,13 @@
 <script setup>
 import Background from "./components/Background.vue";
-import DarkModeButton from "./components/DarkModeButton.vue";
 import MainContainer from "./components/MainContainer.vue";
+import PageHeader from "./components/PageHeader.vue";
 </script>
 
 <template>
   <Background>
     <MainContainer>
-      <DarkModeButton />
+      <PageHeader />
     </MainContainer>
   </Background>
 </template>
