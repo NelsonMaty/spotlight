@@ -10,8 +10,8 @@ const toggleDark = useToggle(isDark);
     <button
       type="button"
       aria-label="Toggle dark mode"
+      class="group rounded-full bg-white/90 px-4 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20 lg:px-3 lg:py-3"
       @click="toggleDark()"
-      class="group rounded-full bg-white/90 px-4 py-2 lg:px-3 lg:py-3 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20"
     >
       <svg
         viewBox="0 0 24 24"
