@@ -1,14 +1,14 @@
 <script setup>
 import Background from "./components/Background.vue";
-import MainContainer from "./components/MainContainer.vue";
+import PageContainer from "./components/PageContainer.vue";
 import PageHeader from "./components/PageHeader.vue";
 </script>
 
 <template>
   <Background>
-    <MainContainer>
+    <PageContainer>
       <PageHeader />
-    </MainContainer>
+    </PageContainer>
   </Background>
 </template>
 
