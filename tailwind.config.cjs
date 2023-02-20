@@ -7,9 +7,9 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {},
-    transitionDuration:{
-      DEFAULT: '350ms'
-    } 
+    fontSize: {
+      sm: ['14px', '1.5rem' ]
+    },
   },
   plugins: [],
 }
