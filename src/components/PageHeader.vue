@@ -1,8 +1,8 @@
 <template>
   <header>
-    <div class="pointer-events-auto w-full pt-6">
-      <div class="mx-auto max-w-7xl sm:px-8 lg:px-8">
-        <div class="mx-auto max-w-2xl duration-1000 lg:max-w-5xl">
+    <div class="pointer-events-auto w-full px-4 pt-6 sm:px-8 lg:px-12">
+      <div class="mx-auto max-w-7xl">
+        <div class="mx-auto max-w-2xl lg:max-w-5xl">
           <div class="flex gap-4">
             <div class="flex flex-1"></div>
             <div class="flex flex-1 justify-end md:justify-center">
